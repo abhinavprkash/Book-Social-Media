@@ -95,7 +95,7 @@ Request Type: `POST`
 
 Body: (In postman)
 
-![Screenshot from 2021-10-07 14.00.24.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84bcb6e7-0ddb-48f0-86ae-2f023647c42a/Screenshot_from_2021-10-07_14.00.24.png)
+![Screenshot from 2021-10-07 14.00.24.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/84bcb6e7-0ddb-48f0-86ae-2f023647c42a/Screenshot_from_2021-10-07_14.00.24.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211007%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211007T085342Z&X-Amz-Expires=86400&X-Amz-Signature=f7e75b46d685f5d07c16ce8a115381f916acb76ef0794d3b343ffbbfed3cf72f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot%2520from%25202021-10-07%252014.00.24.png%22)
 
 ## Endpoint To Populate DB
 
