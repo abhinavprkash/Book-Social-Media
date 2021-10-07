@@ -70,3 +70,37 @@ After cloning the repo and installing the node image in docker.
     #[For Production]
     docker-compose -f docker-compose.yml -f docker-compose.prod.yml down -v 
     ```
+## Testing API Docs
+
+Testing API is used to ingest CSV data into the DB. 
+
+### To Run The Server in local system
+
+```bash
+
+git clone https://github.com/abhinavprkash/pratillipi-testing-api
+
+cd pratillipi-testing-api
+
+npm install
+
+node server.js
+```
+
+## Endpoint To Upload a CSV File
+
+URI: [`http://localhost:8080/api/main/uploadFile`](http://localhost:8080/api/main/uploadFile)
+
+Request Type: `POST`
+
+Body: (In postman)
+
+![Screenshot from 2021-10-07 14.00.24.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84bcb6e7-0ddb-48f0-86ae-2f023647c42a/Screenshot_from_2021-10-07_14.00.24.png)
+
+## Endpoint To Populate DB
+
+URI: [`http://localhost:8080/api/main/test`](http://localhost:8080/api/main/test)
+
+Request Type: `GET`
+
+Body: NA
