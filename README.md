@@ -57,7 +57,10 @@ After cloning the repo and installing the node image in docker.
     #[For Production]
     docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build 
     ```
-
+- open the browser
+    ```
+    visit http://localhost:5000
+    ```
 - Stop
 
     ```python
